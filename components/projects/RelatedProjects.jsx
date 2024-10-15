@@ -6,10 +6,14 @@ const RelatedProject = {
 	Projects: [
 		{
 			id: uuidv4(),
-			title: 'Mobile UI',
-			img: '/images/project-marefiya-1.png',
+			title: 'Innovate et',
+			img: '/images/project-innovate-1.png',
 		},
-		
+		{
+			id: uuidv4(),
+			title: 'Marefiya',
+			img: '/images/project-marefiya-1.png',
+		},		
 	],
 };
 

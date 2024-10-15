@@ -113,4 +113,120 @@ export const projectsData = [
 			// ],
 		},
 	},
+	{
+		id: 2,
+		title: 'Project - Innovate et',
+		url: 'https://innovate-navy.vercel.app/',
+		github_url: "https://github.com/dagim-mante/innovate.",
+		category: 'Web Application',
+		img: '/images/project-innovate-1.png',
+		ProjectHeader: {
+			title: 'Innovate et',
+			publishDate: 'Aug 12, 2024',
+			tags: 'UI / Frontend',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'Hero',
+				img: '/images/project-innovate-1.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Why us',
+				img: '/images/project-innovate-2.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Schedule',
+				img: '/images/project-innovate-3.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Footer',
+				img: '/images/project-innovate-4.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Project',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Innovate et',
+				},
+				{
+					id: uuidv4(),
+					title: 'Type',
+					details: 'Frontend Web app',
+				},
+				{
+					id: uuidv4(),
+					title: 'Website',
+					details: 'https://innovate-navy.vercel.app/',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'The objective of Innovate et was to create visually appealing and creative landing page for the company.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Next.js',
+						'TailwindCSS',
+						'React Leaflet',
+						'Git',
+						'Figma'
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Details',
+			ProjectDetails: [
+				{
+					id: uuidv4(),
+					details:
+						'InnovateET is a professional training center that specializes in Information and Communication Technologies (ICT) and enterprise solutions for businesses.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'I was tasked with creating a creating visually appealing and creative landing page for the company.',
+				},
+			],
+			SocialSharingHeading: '',
+			// SocialSharing: [
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Twitter',
+			// 		icon: <FiTwitter />,
+			// 		url: 'https://twitter.com/realstoman',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Instagram',
+			// 		icon: <FiInstagram />,
+			// 		url: 'https://instagram.com/realstoman',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Facebook',
+			// 		icon: <FiFacebook />,
+			// 		url: 'https://facebook.com/',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'LinkedIn',
+			// 		icon: <FiLinkedin />,
+			// 		url: 'https://linkedin.com/',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Youtube',
+			// 		icon: <FiYoutube />,
+			// 		url: 'https://www.youtube.com/c/StomanStudio',
+			// 	},
+			// ],
+		},
+	},
 ];
