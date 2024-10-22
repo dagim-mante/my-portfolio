@@ -88,7 +88,7 @@ function ProjectSingle(props) {
 										>
 											<span>{info.title}: </span>
 											<a
-												href="https://stoman.me"
+												href={info.title === 'Website' ? info.details : '#'}
 												className={
 													info.title === 'Website' ||
 													info.title === 'Phone'
