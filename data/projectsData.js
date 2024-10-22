@@ -115,6 +115,124 @@ export const projectsData = [
 	},
 	{
 		id: 2,
+		title: 'Project - Magic Notes',
+		url: 'https://magic-notes-gray.vercel.app/',
+		github_url: "https://github.com/dagim-mante/Magic-Notes---AI-Based-Notes-Editor",
+		category: 'Web Application',
+		img: '/images/project-magic-notes-1.png',
+		ProjectHeader: {
+			title: 'Magic Notes',
+			publishDate: 'Oct 19, 2024',
+			tags: 'Fullstack / AI',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'Hero',
+				img: '/images/project-magic-notes-2.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Why us',
+				img: '/images/project-magic-notes-3.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Schedule',
+				img: '/images/project-magic-notes-4.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Footer',
+				img: '/images/project-magic-notes-5.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Project',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Magic Notes',
+				},
+				{
+					id: uuidv4(),
+					title: 'Type',
+					details: 'Fullstack web app',
+				},
+				{
+					id: uuidv4(),
+					title: 'Website',
+					details: 'https://magic-notes-gray.vercel.app/',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'The objective of Magic Notes was to fullstack web app that takes advantage of the recent LLM models.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Next.js',
+						'TailwindCSS',
+						'Gemini AI',
+						'ShadCN',
+						'Git',
+						'Figma'
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Details',
+			ProjectDetails: [
+				{
+					id: uuidv4(),
+					details:
+						'Magic Notes is a note editor that allows users to create, edit and organize their notes. It has a built in AI Assistant to help with note creation and editing.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'I learned how i can use the Gemini API to integrate a realtime AI chat assistant in my app.',
+				},
+			],
+			SocialSharingHeading: '',
+			// SocialSharing: [
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Twitter',
+			// 		icon: <FiTwitter />,
+			// 		url: 'https://twitter.com/realstoman',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Instagram',
+			// 		icon: <FiInstagram />,
+			// 		url: 'https://instagram.com/realstoman',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Facebook',
+			// 		icon: <FiFacebook />,
+			// 		url: 'https://facebook.com/',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'LinkedIn',
+			// 		icon: <FiLinkedin />,
+			// 		url: 'https://linkedin.com/',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Youtube',
+			// 		icon: <FiYoutube />,
+			// 		url: 'https://www.youtube.com/c/StomanStudio',
+			// 	},
+			// ],
+		},
+	},
+	{
+	
+		id: 3,
 		title: 'Project - Innovate et',
 		url: 'https://innovate-navy.vercel.app/',
 		github_url: "https://github.com/dagim-mante/innovate.",
